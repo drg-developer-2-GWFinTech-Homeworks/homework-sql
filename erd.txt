@@ -22,7 +22,7 @@ id_merchant_category INT FK >- merchant_category.id
 transactions
 -
 id PK INT
-date DATE
+date TIMESTAMP
 amount FLOAT
 card VARCHAR(255) FK >- credit_card.card
 id_merchant INT FK >- merchant.id
